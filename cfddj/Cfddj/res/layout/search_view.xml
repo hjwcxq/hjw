@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <ImageView 
+        android:id="@+id/loading_image"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/default_ptr_rotate"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        />
+    
+    <EditText 
+        android:id="@+id/search_view"
+        android:layout_toLeftOf="@+id/loading_image"
+        android:layout_centerVertical="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入股票的编号"
+        android:textColorHint="@color/color_white"        
+        android:textColor="@color/color_white"
+        android:textSize="14sp"
+        />
+    
+
+</RelativeLayout>

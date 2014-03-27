@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dzcj version="20140301012841">
+    <moduleList>
+        <module type="focus" index="0" width="320" show="true" id="6" height="180">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="320" show="false" id="0" height="180">
+                <alt>点掌财经</alt>
+                <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224110549.png</src>
+            </backimg>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="false" id="0" height="0">
+                <text>焦点图模块</text>
+            </title>
+            <itemList>
+                <item type="live" index="0" width="0" show="true" id="11" height="0">
+                    <action type="api">
+                        <paraList>
+                            <para name="liveid">
+								<value>23840938038504853409</value>
+                            </para>
+                        </paraList>
+                        <url>http://mobileapi.zuoanlong.com:8082/tysx/api/v1/live</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <alt>点掌财经直播节目</alt>
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224113602.png</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <desc width="0" show="false" id="0" height="0">
+                        <text>点掌财经直播节目</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>点掌财经直播节目</text>
+                    </title>
+                </item>
+                <item type="url" index="1" width="0" show="true" id="9" height="0">
+                    <action type="url">
+                        <paraList/>
+                        <url>http://m.tv189.com/portal/480/kpcp/gpzal/jgks/n10124549d169c21441277.jsp</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224113243.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>http://m.tv189.com/portal/480/kpcp/gpzal/jgks/n10124549d169c21441277.jsp</contentUrl>
+                    <desc width="0" show="false" id="0" height="0">
+                        <text>锁定8只金股马上发财</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>锁定8只金股马上发财</text>
+                    </title>
+                </item>
+                <item type="menu" index="2" width="0" show="true" id="12" height="0">
+                    <action type="menu">
+                        <paraList/>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224113837.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>专家一对一解盘</text>
+                    </title>
+                </item>
+                <item type="menu" index="3" width="320" show="true" id="13" height="180">
+                    <action type="menu">
+                        <paraList/>
+                        <url>djsj</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224120826.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>djsj</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>情报在手，选股不愁</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="app_reco" index="1" width="320" show="true" id="32" height="50">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="false" id="0" height="0">
+                <text>推荐功能区域</text>
+            </title>
+            <itemList>
+                <item type="menu" index="0" width="80" show="true" id="14" height="80">
+                    <action type="menu">
+                        <paraList/>
+                        <url>zjydy</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224133458.png</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>zjydy</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>专家一对一</text>
+                    </title>
+                </item>
+                <item type="menu" index="1" width="80" show="true" id="15" height="80">
+                    <action type="menu">
+                        <paraList/>
+                        <url>video</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224134717.png</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>video</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>赚钱宝典</text>
+                    </title>
+                </item>
+                <item type="menu" index="2" width="80" show="true" id="16" height="80">
+                    <action type="menu">
+                        <paraList/>
+                        <url>djsj</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224140003.png</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>djsj</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>私募数据</text>
+                    </title>
+                </item>
+                <item type="menu" index="3" width="80" show="true" id="17" height="80">
+                    <action type="menu">
+                        <paraList/>
+                        <url>yjxg</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0">
+                        <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224140540.png</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>yjxg</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>一键选股</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="go_order" index="2" width="300" show="true" id="33" height="46">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0">
+                <src>http://file.zuoanlong.com:8081/dzcj_module/20140224/dzcj_module_20140224141130.png</src>
+            </backimg>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>独家揭秘股市猛料 紧跟主力赚钱</text>
+            </title>
+        </module>
+        <module type="news_reco" index="3" width="320" show="true" id="34" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>推荐新闻</text>
+            </title>
+            <itemList>
+                <item type="video" index="0" width="0" show="true" id="18" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34155024</value>
+                            </para>
+                        </paraList>
+                        <url>34155024</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0"/>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>34155024</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>哪几类的个股需要回避</text>
+                    </title>
+                </item>
+                <item type="url" index="1" width="0" show="true" id="19" height="0">
+                    <action type="url">
+                        <paraList/>
+                        <url>http://web.zuoanlong.com:8082/mmsweb/content/news/6</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0"/>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>http://web.zuoanlong.com:8082/mmsweb/content/news/6</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>下周大盘将现惊人一幕？</text>
+                    </title>
+                </item>
+                <item type="url" index="2" width="0" show="true" id="20" height="0">
+                    <action type="url">
+                        <paraList/>
+                        <url>http://web.zuoanlong.com:8082/mmsweb/content/news/8</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0"/>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>http://web.zuoanlong.com:8082/mmsweb/content/news/8</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>周五股指反攻真相调查</text>
+                    </title>
+                </item>
+                <item type="url" index="3" width="0" show="true" id="21" height="0">
+                    <action type="url">
+                        <paraList/>
+                        <url>http://web.zuoanlong.com:8082/mmsweb/content/news/10</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0"/>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>http://web.zuoanlong.com:8082/mmsweb/content/news/10</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>两会行情或可期 三金股值得介入</text>
+                    </title>
+                </item>
+                <item type="url" index="4" width="0" show="true" id="22" height="0">
+                    <action type="url">
+                        <paraList/>
+                        <url>http://web.zuoanlong.com:8082/mmsweb/content/news/12</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="false" id="0" height="0"/>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentUrl>http://web.zuoanlong.com:8082/mmsweb/content/news/12</contentUrl>
+                    <desc width="0" show="false" id="0" height="0"/>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>揭秘人民币暴跌的内幕</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="4" width="0" show="true" id="35" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>大盘解读</text>
+            </title>
+            <catalogId>dpfx</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="25" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34137939</value>
+                            </para>
+                        </paraList>
+                        <url>34137939</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>创业板强势归来泡沫继续吹大</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34137939/120_7041900859.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34137939</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 16:06:33 2月24日－周琦：创业板强势依在,还会再创新高,局部热点在次新股,估值泡沫还将继续吹大。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>创业板强势归来泡沫继续吹大</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="26" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34137940</value>
+                            </para>
+                        </paraList>
+                        <url>34137940</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>谁来接创业板最后一棒</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34137940/120_7041900701.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34137940</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 16:06:33 2月24日－张弓：创业板上涨中小板跟风,设好止盈止损位,谁来接最后一棒是关注重点。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>谁来接创业板最后一棒</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="27" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34137941</value>
+                            </para>
+                        </paraList>
+                        <url>34137941</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月24日大盘：反弹周期未完成</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34137941/120_7041900288.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34137941</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 16:06:33 2月24日－张弓：上证指数2177点见顶回落,但反弹周期上不符合反弹结束的条件。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月24日大盘：反弹周期未完成</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="28" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34136946</value>
+                            </para>
+                        </paraList>
+                        <url>34136946</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月24日大盘：杀跌不用过度悲观</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34136946/120_7041886766.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34136946</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 14:53:50 2月24日－刘彬：市场杀跌在意料之中,短线对市场下跌不用过度悲观,等待反弹。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月24日大盘：杀跌不用过度悲观</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="29" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34136422</value>
+                            </para>
+                        </paraList>
+                        <url>34136422</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月24日大盘：30日均线止跌回稳</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34136422/120_7041877746.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34136422</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 13:55:26 2月24日－鲁晓云：房贷收紧消息打压地产股,上证指数大跌在30日均线止跌回稳。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月24日大盘：30日均线止跌回稳</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="5" width="0" show="true" id="36" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>主力内幕</text>
+            </title>
+            <catalogId>gszl</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="256" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34158500</value>
+                            </para>
+                        </paraList>
+                        <url>34158500</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>人民币即期汇率早盘现暴跌</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34158500/120_7042315920.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34158500</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 14:17:35 2月28日－展源：后市人民币汇率还会有贬值的可能,对市场的影响是不利的。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>人民币即期汇率早盘现暴跌</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="258" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34157551</value>
+                            </para>
+                        </paraList>
+                        <url>34157551</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>通道理论操作方法</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34157551/120_7042293776.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34157551</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 11:57:26 2月28日－丁敏以中南传媒为例分析,如何按照通道理论再结合成交量的变化进行操作。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>通道理论操作方法</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="260" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34157550</value>
+                            </para>
+                        </paraList>
+                        <url>34157550</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>市场环境恶劣何时可尝试建仓</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34157550/120_7042293864.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34157550</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 11:57:26 2月28日－丁敏：目前市场环境比较恶劣,指数跌跌不休,等到何时才可尝试进场建仓。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>市场环境恶劣何时可尝试建仓</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="262" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34157549</value>
+                            </para>
+                        </paraList>
+                        <url>34157549</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>各商品期货走势点评</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34157549/120_7042293814.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34157549</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 11:57:26 2月28日－焦红梅：天然橡胶,沪铜近期跌幅较大,黄金接近箱体上沿,多头力量较强。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>各商品期货走势点评</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="264" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34157443</value>
+                            </para>
+                        </paraList>
+                        <url>34157443</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>两桶油解除垄断对市场的影响</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34157443/120_7042290884.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34157443</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 11:30:27 2月28日－焦红梅分析两桶油解除垄断对市场的影响,对化工产品的价格走势是否是利空。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>两桶油解除垄断对市场的影响</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="6" width="0" show="true" id="37" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>潜力黑马</text>
+            </title>
+            <catalogId>qlhm</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="290" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34159285</value>
+                            </para>
+                        </paraList>
+                        <url>34159285</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>三月份如何挖掘金股</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34159285/120_7042333546.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34159285</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 15:29:21 2月28日－展源,柯昌武：密切关注3月5日两会召开市场的表现,三月份如何挖掘金股。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>三月份如何挖掘金股</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="292" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34158501</value>
+                            </para>
+                        </paraList>
+                        <url>34158501</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>两会行情掘金哪几大板块</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34158501/120_7042315941.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34158501</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 14:17:35 2月28日－展源：两会是市场的风向标,市场表现值得重点关注,哪些板块存在一定的机会。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>两会行情掘金哪几大板块</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="294" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34158502</value>
+                            </para>
+                        </paraList>
+                        <url>34158502</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>热点板块中的风险与机会</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34158502/120_7042315900.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34158502</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 14:17:35 2月28日－展源：传媒板块的上涨已经透支了未来的预期,军工打包上市其中的机会值得期待。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>热点板块中的风险与机会</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="296" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34156686</value>
+                            </para>
+                        </paraList>
+                        <url>34156686</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>000559万向钱潮：低价低估值后市看涨</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34156686/120_7042272877.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34156686</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 09:55:34 2月27日－薛松：主力深度介入,后市继续看涨,继续持有,但不适合购买。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>000559万向钱潮：低价低估值后市看涨</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="298" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34156685</value>
+                            </para>
+                        </paraList>
+                        <url>34156685</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>600108亚盛集团：公告对股价指导意义不大</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34156685/120_7042272944.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34156685</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-28 09:55:34 2月27日－薛松：一直处于盘整区域,久盘必跌。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>600108亚盛集团：公告对股价指导意义不大</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="7" width="0" show="true" id="38" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>热点板块</text>
+            </title>
+            <catalogId>zjyc</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="65" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34136806</value>
+                            </para>
+                        </paraList>
+                        <url>34136806</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>二维码成移动支付首选钱景广阔</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34136806/120_7041884438.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34136806</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 14:39:28 2月24日－黄炜：二维码成为移动支付的首选,未来钱景广阔,目前介入是否正当时。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>二维码成移动支付首选钱景广阔</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="66" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34131288</value>
+                            </para>
+                        </paraList>
+                        <url>34131288</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>本周推荐主题回顾展望后市机会</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34131288/120_7041776691.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34131288</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-22 01:26:19 2月21日－刘彬：本周看好的军工,电子,环保股未来还有机会,回调低吸。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>本周推荐主题回顾展望后市机会</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="67" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34131282</value>
+                            </para>
+                        </paraList>
+                        <url>34131282</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>中国石化率先破题央企改革</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34131282/120_7041776862.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34131282</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-22 01:26:18 2月21日－张弓：油气改革对石油相关板块持续性上涨有待商榷。对市场形成心理压力。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>中国石化率先破题央企改革</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="68" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34130080</value>
+                            </para>
+                        </paraList>
+                        <url>34130080</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>拥抱互联网提振传统行业</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34130080/120_7041748347.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34130080</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-21 16:16:19 2月21日－阮军,薛松：传统行业纷纷拥抱互联网,提振传统行业带来生机,转型能否成功。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>拥抱互联网提振传统行业</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="69" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34126482</value>
+                            </para>
+                        </paraList>
+                        <url>34126482</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>看好电力板块低价位的补涨机会</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34126482/120_7041666832.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34126482</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-21 09:45:51 2月20日－宋正皓：火电整体业绩大方向向上,水电发电增速向上,风电相对核电较好。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>看好电力板块低价位的补涨机会</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="9" width="0" show="true" id="40" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>数据一对一</text>
+            </title>
+            <catalogId>zjydy</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="410" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34155626</value>
+                            </para>
+                        </paraList>
+                        <url>34155626</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>数据一对一0227</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34155626/120_7042247600.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34155626</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-27 17:04:20 2月27日－刘彬专场集中回答股民个股问题,指导投资方向。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>数据一对一0227</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="412" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34150176</value>
+                            </para>
+                        </paraList>
+                        <url>34150176</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>数据一对一0226</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34150176/120_7042134904.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34150176</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-26 16:57:23 2月26日－刘彬专场集中回答股民个股问题,指导投资方向。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>数据一对一0226</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="414" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34143525</value>
+                            </para>
+                        </paraList>
+                        <url>34143525</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>数据一对一0225</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34143525/120_7042025408.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34143525</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-25 16:56:28 2月25日－刘斌专场集中回答股民个股问题,指导投资方向。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>数据一对一0225</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="185" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34138771</value>
+                            </para>
+                        </paraList>
+                        <url>34138771</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>数据一对一0224</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34138771/120_7041916608.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34138771</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 17:07:54 2月24日－刘斌专场集中回答股民个股问题,指导投资方向。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>数据一对一0224</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="186" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34130667</value>
+                            </para>
+                        </paraList>
+                        <url>34130667</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>数据一对一0221</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34130667/120_7041761267.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34130667</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-21 17:22:37 2月21日－薛松专场集中回答股民个股问题,指导投资方向。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>数据一对一0221</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="10" width="0" show="true" id="41" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>炒新情报</text>
+            </title>
+            <catalogId>lcqm</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="125" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34136807</value>
+                            </para>
+                        </paraList>
+                        <url>34136807</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>发审会重启在即IPO政策恐调整</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34136807/120_7041884398.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34136807</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 14:39:28 2月24日－鲁晓云,黄炜：发审会重启在即,IPO政策有望调整,IPO重启对市场形成压力。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>发审会重启在即IPO政策恐调整</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="126" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34121786</value>
+                            </para>
+                        </paraList>
+                        <url>34121786</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>新股涨停潮能持续多久</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34121786/120_7041562183.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34121786</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-20 11:23:16 2月20日－蔡钧毅分析新股上市后的表现,后市新股集体涨停的概率会越来越低。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>新股涨停潮能持续多久</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="127" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34121384</value>
+                            </para>
+                        </paraList>
+                        <url>34121384</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>银行股在经济转型过程中不值得去参与</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34121384/120_7041552659.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34121384</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-20 10:44:51 2月19日－宋应龙：银行股价低有其低的道理,创业板随经济转型股价也水涨船高。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>银行股在经济转型过程中不值得去参与</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="128" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34121377</value>
+                            </para>
+                        </paraList>
+                        <url>34121377</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>002718友邦吊顶：估值低于行业平均水平</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34121377/120_7041552921.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34121377</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-20 10:44:49 2月19日－张宁：要把握超额利润,新股还可以继续盈利。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>002718友邦吊顶：估值低于行业平均水平</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="129" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34118367</value>
+                            </para>
+                        </paraList>
+                        <url>34118367</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>新股破发何时会出现</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34118367/120_7041494679.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34118367</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-19 14:37:56 2月19日－孙宏廷：前期新股上市后纷纷被炒作,连续停牌,未来新股破发何时会出现。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>新股破发何时会出现</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="11" width="0" show="true" id="42" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>老左Q&amp;A</text>
+            </title>
+            <catalogId>lzqaa</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="145" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34135003</value>
+                            </para>
+                        </paraList>
+                        <url>34135003</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月24日老左：早间新闻点评</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34135003/120_7041846943.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34135003</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 10:39:18 2月24日－老左点评早间重要新闻。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月24日老左：早间新闻点评</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="146" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34127163</value>
+                            </para>
+                        </paraList>
+                        <url>34127163</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月21日老左：早间新闻点评</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34127163/120_7041686437.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34127163</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-21 10:47:00 2月21日－老左点评早间重要新闻。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月21日老左：早间新闻点评</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="147" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34121781</value>
+                            </para>
+                        </paraList>
+                        <url>34121781</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月20日老左：早间新闻点评</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34121781/120_7041562184.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34121781</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-20 11:23:15 2月20日－老左点评早间重要新闻。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月20日老左：早间新闻点评</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="148" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34116744</value>
+                            </para>
+                        </paraList>
+                        <url>34116744</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月19日老左：早间新闻点评</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34116744/120_7041460988.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34116744</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-19 11:17:08 2月19日－老左点评早间重要新闻。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月19日老左：早间新闻点评</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="149" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34112291</value>
+                            </para>
+                        </paraList>
+                        <url>34112291</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2月18日老左：早间新闻点评</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34112291/120_7041359610.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34112291</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-18 10:40:42 2月18日－老左点评早间重要新闻。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2月18日老左：早间新闻点评</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+        <module type="video" index="12" width="0" show="true" id="43" height="0">
+            <backcolor width="0" show="false" id="0" height="0"/>
+            <backimg width="0" show="false" id="0" height="0"/>
+            <catalog width="0" show="false" id="0" height="0"/>
+            <desc width="0" show="false" id="0" height="0"/>
+            <icon width="0" show="false" id="0" height="0"/>
+            <moduleId>0</moduleId>
+            <title width="0" show="true" id="0" height="0">
+                <text>免费体验</text>
+            </title>
+            <catalogId>gsbk</catalogId>
+            <itemList>
+                <item type="video" index="100" width="0" show="true" id="165" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34135354</value>
+                            </para>
+                        </paraList>
+                        <url>34135354</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>医药股的操作技巧</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34135354/120_7041856765.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34135354</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-24 11:22:03 2月24日－窦维德：医药股分化大,以普洛药业和昆明制药为例分析医药股的操作技巧。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>医药股的操作技巧</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="166" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34127697</value>
+                            </para>
+                        </paraList>
+                        <url>34127697</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>A股市场的土豪是谁</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34127697/120_7041696895.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34127697</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-21 11:31:06 2月21日－丁敏,赵文建：A股市场中的土豪是谁,土豪央企分蛋糕给市场带来何种影响。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>A股市场的土豪是谁</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="167" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34123693</value>
+                            </para>
+                        </paraList>
+                        <url>34123693</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>何时适合做融资融券</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34123693/120_7041603060.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34123693</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-20 14:49:08 2月20日－窦维德以上证指数为例分析,何时适合做融资融券,融券指数有什么指示性作用。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>何时适合做融资融券</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="168" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34119973</value>
+                            </para>
+                        </paraList>
+                        <url>34119973</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>2014年以重组及小盘股为主</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34119973/120_7041530024.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34119973</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-19 17:35:43 2月19日－毛羽：联动效应促使小盘股好操作,尽量选择市值在12亿左右的。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>2014年以重组及小盘股为主</text>
+                    </title>
+                </item>
+                <item type="video" index="100" width="0" show="true" id="169" height="0">
+                    <action type="video">
+                        <paraList>
+                            <para name="url">
+<value>34119211</value>
+                            </para>
+                        </paraList>
+                        <url>34119211</url>
+                    </action>
+                    <backcolor width="0" show="false" id="0" height="0"/>
+                    <backimg width="0" show="true" id="0" height="0">
+                        <alt>QE退出央行将如何应对</alt>
+                        <src>http://pic01.v.vnet.mobi/mcover/2014/02/34119211/120_7041512926.jpg</src>
+                    </backimg>
+                    <catalog width="0" show="false" id="0" height="0"/>
+                    <contentId>34119211</contentId>
+                    <desc width="0" show="true" id="0" height="0">
+                        <text>2014-02-19 16:17:27 2月19日－薛松,尹光夫分析目前人民币汇率情况,QE逐步退出,央行将会如何应对。</text>
+                    </desc>
+                    <icon width="0" show="false" id="0" height="0"/>
+                    <moduleId>0</moduleId>
+                    <title width="0" show="true" id="0" height="0">
+                        <text>QE退出央行将如何应对</text>
+                    </title>
+                </item>
+            </itemList>
+        </module>
+    </moduleList>
+</dzcj>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_stock_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_selectable_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp" >
+
+    <TextView
+        android:id="@+id/stock_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="1"
+        android:text="万科 A"
+        android:textColor="@color/text_button"
+        android:textSize="@dimen/text_normal" />
+
+    <TextView
+        android:id="@+id/stock_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="1"
+        android:text="0000002 "
+        android:textColor="@color/text_button"
+        android:textSize="@dimen/text_normal" />
+
+    <TextView
+        android:id="@+id/stock_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_size"
+        android:layout_weight="1"
+        android:text="1.02"
+        android:textColor="@color/text_button"
+        android:textSize="@dimen/text_normal" />
+
+    <TextView
+        android:id="@+id/stock_range"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:text="-0.92%    "
+        android:textColor="@color/text_button"
+        android:textSize="@dimen/text_normal" />
+
+</LinearLayout>

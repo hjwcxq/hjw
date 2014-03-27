@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.47"
+            android:background="@drawable/title"
+            android:gravity="center"
+            android:text="信息提示"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_black"
+            android:textColorHighlight="@color/color_black"
+            android:textSize="@dimen/ordertip_title_textsize" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_down" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="5.47"
+            android:orientation="vertical"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5.47"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dip"
+                android:text="订购成功"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_red"
+                android:textSize="@dimen/ordertip_detail_textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dip"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/closeBtn"
+                android:layout_width="128dip"
+                android:layout_height="33dip"
+                android:background="@drawable/btn1"
+                android:text="关闭"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

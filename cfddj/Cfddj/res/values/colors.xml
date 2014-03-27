@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+    <color name="color_black">#FF000000</color>
+    <color name="color_green">#FF00FF00</color>
+    <color name="color_blue">#FF0000FF</color>
+    <color name="color_red">#FFFF0000</color>
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="color_yellow_light">#FFFFFFFF</color>
+    <color name="color_trans">#00000000</color>
+    <color name="color_lightpink">#88FF1100</color>
+    <color name="color_grey">#FF888888</color>
+    <color name="color_lightgrey">#FFDDDDDD</color>
+    <color name="color_transgrey">#88DDDDDD</color>
+
+    <!-- titlebar背景 -->
+    <color name="gplz_title_bg">#990000</color>
+    <color name="title_back_color">#FFFF7D00</color>
+    <color name="title_item_color_pressed">#ffCCCCCC</color>
+    <color name="title_text_color">#FFFFFFFF</color>
+
+    <!-- actionbar 背景 -->
+    <color name="actionbar_back_color">#FF990000</color>
+    <color name="actionbar_item_back_color">#FF990000</color>
+    <color name="actionbar_item_back_color_pressed">#ffCCCCCC</color>
+    <color name="actionbar_divider">#ffCCCCCC</color>
+
+    <!-- videoHeader 背景 -->
+    <color name="videoheader_back_color">#FF202020</color>
+
+    <!-- textField 背景 -->
+    <color name="textfield_back_color">#FFC9C9C9</color>
+    <color name="textfield_item_back_color">#FFAAAAAA</color>
+    <color name="textfield_item_back_color_pressed">#FFCE3938</color>
+
+    <!-- textInput 背景 -->
+    <color name="textinput_back_color">#FF383838</color>
+
+    <!-- item背景 -->
+    <color name="list_item_title_text_color">#FF999999</color>
+    <color name="list_item_question_text_color">#FF333333</color>
+    <color name="list_item_answer_text_color">#FF666666</color>
+
+    <!-- question item背景 -->
+    <color name="questionitem_title_image_color">#FFFF1100</color>
+    <color name="questionitem_question_color">#FF000000</color>
+
+    <!-- recommend -->
+    <color name="recommend_textColor">#FF692220</color>
+
+    <!-- subpointlist -->
+    <color name="sub_pointlist_dividerColor">#FFC50F0C</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="button_color">#ffffffff</color>
+
+    <!-- 测试使用 -->
+
+    <color name="blue">#0066FF</color>
+    <color name="no_color">#00000000</color>
+    <color name="bg_color">#ededed</color>
+    <color name="bg_color_deep">#E5E5E5</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#434343</color>
+    <color name="black_half">#50000000</color>
+    <!-- 专家一对一 -->
+    <color name="tv_red">#e84a24</color>
+    <color name="tv_gray">#353534</color>
+    <color name="tv_grayer">#353534</color>
+    <color name="bg_content">#f9f6f4</color>
+    <color name="tv_orange">#f6ff00</color>
+    <color name="bg_wait">#cb3534</color>
+    <color name="bg_gray">#8f8f8f</color>
+    <color name="bg_menu_black">#222222</color>
+    <color name="et_gray">#ff777777</color>
+    <color name="view_line">#d4d4d4</color>
+    <!-- text 文字颜色 -->
+    <color name="text_gray">#666666</color>
+    <color name="text_gray_now">#999999</color>
+    <color name="text_gray_white">#CCCCCC</color>
+    <color name="text_red">#e73838</color>
+    <color name="text_button">#404040</color>
+
+</resources>

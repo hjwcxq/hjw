@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical"
+    android:padding="2dip" 
+    android:layout_marginTop="2dip"
+    android:layout_gravity="top|center">
+
+    <LinearLayout
+        android:layout_width="280dip"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+<!-- 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title"
+            android:gravity="center"
+            android:text="请订购"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_black"
+            android:textColorHighlight="@color/color_black"
+            android:textSize="@dimen/ordertip_title_textsize" />
+ -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title_down" />
+
+        <TextView
+            android:id="@+id/tv_vipqydesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="1dip"
+            android:text="您需要订购才能观看，订购即可享受老左为您指点迷津，轻松掌握股票走势"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/ordertip_detail_textsize" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dip" >
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="包月:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/ordertip_detail_textsize" />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_red"
+                android:textSize="@dimen/ordertip_detail_textsize" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="元"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/ordertip_detail_textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/packagename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:text="产品包:股票老左       服务商:天翼视讯"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/ordertip_detail_textsize" />
+<!--
+        <TextView
+            android:id="@+id/supplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:text="服务商:天翼视讯"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/ordertip_detail_textsize" />
+  -->
+        <TextView
+            android:id="@+id/detailtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dip"
+            android:text="订购提示：费用将从您的电信账单进行收取，以上费用不包含上网通信费。订购后您可在&apos;个人中心&apos;中的&apos;我的订购&apos;里查看订购产品;"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/ordertip_detail_textsize" />
+
+        <LinearLayout
+            android:layout_marginTop="2dip"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/closeBtn"
+                android:layout_width="84dip"
+                android:layout_height="33dip"
+                android:background="@drawable/btn1"
+                android:text="关闭"
+                android:textColor="@color/color_white" />
+
+            <Button
+                android:id="@+id/subscribleBtn"
+                android:layout_width="84dip"
+                android:layout_height="33dip"
+                android:layout_marginLeft="7dip"
+                android:background="@drawable/btn_red"
+                android:text="确认订购"
+                android:textColor="@color/color_white" />
+            <Button
+                android:id="@+id/ordervip_cardBtn"
+                android:layout_width="84dip"
+                android:layout_height="33dip"
+                android:layout_marginLeft="7dip"
+                android:background="@drawable/btn_red"
+                android:text="卡激活"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

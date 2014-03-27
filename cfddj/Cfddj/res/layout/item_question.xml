@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_marginLeft="5dip"
+        android:id="@+id/left_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_left"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_marginRight="7dip"
+            android:layout_marginTop="5dip"
+            android:duplicateParentState="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/vip_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vip"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/question_name"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="1800009999"
+                    android:textColor="@color/list_item_title_text_color"
+                    android:textSize="@dimen/item_title_text_size" />
+
+                <TextView
+                    android:id="@+id/question_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2012-12-12 09:00:00"
+                    android:textColor="@color/list_item_title_text_color"
+                    android:textSize="@dimen/item_title_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/question_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_textbox"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/list_item_question_text_color"
+                    android:textSize="@dimen/item_detail_text_size" />
+
+                <ImageView
+                    android:id="@+id/btn_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@drawable/bg_textbox"
+                    android:src="@drawable/sound_red"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_auto_reply"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:layout_marginLeft="15dip"
+                android:background="@drawable/icon_chat_middle_whole"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/auto_reply_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="系统自动"
+                    android:textSize="@dimen/item_detail_text_size" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.2dip"
+                    android:background="@color/color_black" />
+
+                <TextView
+                    android:id="@+id/auto_reply_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    问题已解决，VIP用户可以查看 的合法的和发货的空间哈和放大回复的空间啊环境啊发的哈立刻恢复可骄傲和放大."
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/item_detail_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

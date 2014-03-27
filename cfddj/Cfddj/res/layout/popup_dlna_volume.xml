@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.ct.sx.android.view.MyVerticalSeekBar
+        android:id="@+id/dlna_vol_seekbar"
+        android:layout_width="13.0dip"
+        android:layout_height="150.0dip"
+        android:max="100"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="7.0dip"
+        android:progress="50"
+        android:progressDrawable="@drawable/dlna_play_seekbar_style"
+        android:thumb="@drawable/icon_seekbar_point" />
+
+</LinearLayout>

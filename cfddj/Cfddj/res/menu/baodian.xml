@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:showAsAction="always"
+        android:icon="@drawable/tital_menu_style"
+        android:title="赚钱宝典">
+        <menu>
+            <item android:id="@+id/dapan" 
+                android:title="个股点评"
+                android:icon="@drawable/ic_launcher"
+                />
+            <item android:id="@+id/gegu" 
+                android:title="大盘解读"
+                android:icon="@drawable/ic_launcher"
+                />
+            <item android:id="@+id/heima" 
+                android:title="潜力黑马"
+                android:icon="@drawable/ic_launcher"
+                />
+            <item android:id="@+id/module" 
+                android:title="热点模块"
+                android:icon="@drawable/ic_launcher"
+                />
+            <item android:id="@+id/zhenliao" 
+                android:title="股市诊疗"
+                android:icon="@drawable/ic_launcher"
+                />
+            <item android:id="@+id/laozuo" 
+                android:title="老左"
+                android:icon="@drawable/ic_launcher"
+                />
+        </menu>
+    </item>
+    
+
+</menu>

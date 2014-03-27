@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_content" >
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/include_bottombar" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/middleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:background="@color/bg_content" >
+
+        <LinearLayout
+            android:id="@+id/onlineLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <include layout="@layout/include_onlinewait" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/offlineLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <include layout="@layout/include_offlinewait" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/videoFrameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/video_expert_height"
+            android:visibility="gone" >
+
+            <WebView
+                android:id="@+id/videoWebView"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:id="@+id/loadingLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLargeInverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:id="@+id/loading_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="0%"
+                    android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                    android:textColor="@color/blue" />
+            </RelativeLayout>
+
+            <VideoView
+                android:id="@+id/videoSurface"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_below="@+id/middleLayout"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/small_size"
+        android:paddingLeft="@dimen/small_size"
+        android:paddingRight="@dimen/small_size" >
+
+        <ImageView
+            android:id="@+id/refresh_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/default_ptr_rotate" />
+
+        <ListView
+            android:id="@+id/questionListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/refresh_img"
+            android:layout_marginTop="@dimen/small_size"
+            android:cacheColorHint="@color/color_trans"
+            android:divider="@color/color_trans"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true"
+            android:listSelector="@color/color_trans"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

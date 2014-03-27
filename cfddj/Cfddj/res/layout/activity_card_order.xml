@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/card_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="请输入卡号"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/text_large" />
+
+    <EditText
+        android:id="@+id/card_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="请输入密码"
+        android:padding="10dp"
+         android:layout_margin="10dp"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/text_large" />
+
+    <Button
+        android:id="@+id/card_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/gplz_title_bg"
+        android:text="激活"
+         android:layout_margin="10dp"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_large" />
+
+</LinearLayout>

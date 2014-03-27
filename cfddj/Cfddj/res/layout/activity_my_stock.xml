@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_stock_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/medium_size"
+        android:paddingTop="@dimen/medium_size" >
+
+        <TextView
+            android:id="@+id/stock_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:text="名称"
+            android:textColor="@color/text_gray" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:text="股票编号 "
+            android:textColor="@color/text_gray" />
+
+        <TextView
+            android:id="@+id/stock_price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_size"
+            android:layout_weight="1"
+            android:text="最新价"
+            android:textColor="@color/text_gray" />
+
+        <TextView
+            android:id="@+id/stock_range"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:text="跌涨幅"
+            android:textColor="@color/text_gray" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/bg_color" />
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#19000000"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+
+    
+    <RelativeLayout
+        android:id="@+id/ll_emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/emptyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你还没有添加自选股"
+            android:layout_centerInParent="true"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/add_stock"
+            android:text="点击添加"
+            android:layout_below="@+id/emptyText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_width="100dp"
+            android:textColor="@color/color_white"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>

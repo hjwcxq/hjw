@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/liveVideo_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/surfaceViewBorder"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/video_frame_height"
+        android:background="@drawable/vip_order_bg" >
+
+        <SurfaceView
+            android:id="@+id/videoSurfaceView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/playControlBtn"
+            android:layout_width="@dimen/video_image_play_width"
+            android:layout_height="@dimen/video_image_play_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/backgroup_play_btn" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_alignParentBottom="true"
+            android:background="#22000000"
+            android:visibility="visible" >
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/ivFullScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:src="@drawable/backgroup_full_screen_btn" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/surfaceViewBorder"
+        android:clickable="true"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/ll_expertList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_video_intro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_vtital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#404040"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_vtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_vtital"
+                    android:layout_marginTop="@dimen/large_size"
+                    android:text="时长："
+                    android:textColor="#666666"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/vtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_vtital"
+                    android:layout_marginTop="@dimen/large_size"
+                    android:layout_toRightOf="@+id/tv_vtime"
+                    android:text=""
+                    android:textColor="#666666"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/v1"
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    android:layout_below="@+id/tv_vtital"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/tv_vnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_vtital"
+                    android:layout_marginTop="@dimen/large_size"
+                    android:layout_toRightOf="@+id/v1"
+                    android:text="播放次数："
+                    android:textColor="#666666"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/vnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_vtital"
+                    android:layout_marginTop="@dimen/large_size"
+                    android:layout_toRightOf="@+id/tv_vnum"
+                    android:text=""
+                    android:textColor="#666666"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_vintro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_vtime"
+                    android:layout_marginTop="@dimen/llarge_size"
+                    android:text=""
+                    android:textColor="#666666"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_vintro"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/bg_circle_shape"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_vtip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:padding="@dimen/medium_size"
+                        android:text=""
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/view1"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dip"
+        android:layout_above="@+id/rl_tab_bottom"
+        android:background="@color/view_line" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_tab_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/large_size" >
+
+        <ImageView
+            android:id="@+id/img_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/backgroup_down_btn" />
+
+        <ImageView
+            android:id="@+id/img_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/backgroup_collect_btn" />
+
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/backgroup_share_btn" />
+    </RelativeLayout>
+
+</RelativeLayout>

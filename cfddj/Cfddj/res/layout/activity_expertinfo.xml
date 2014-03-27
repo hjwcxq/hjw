@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_size" >
+
+        <RelativeLayout
+            android:id="@+id/left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/head_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <ImageView
+                    android:id="@+id/head_img"
+                    android:layout_width="@dimen/expert_head_img_width"
+                    android:layout_height="@dimen/expert_head_img_height"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/head_default" />
+
+                <TextView
+                    android:id="@+id/status_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/head_img"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bg_online"
+                    android:text="@string/online"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/status_tv_size" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/head_layout"
+                android:layout_alignRight="@+id/head_layout"
+                android:layout_below="@+id/head_layout"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/tv_gray"
+                android:textSize="@dimen/tv_size26"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/position_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_tv"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/tv_gray"
+                android:textSize="@dimen/tv_size18"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/left_layout"
+            android:orientation="vertical"
+            android:padding="@dimen/small_size" >
+
+            <TextView
+                android:id="@+id/introduction_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_size"
+                android:text=""
+                android:textColor="@color/tv_gray"
+                android:textSize="@dimen/tv_size20"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/offline_time_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_gray"
+                android:orientation="vertical"
+                android:padding="@dimen/medium_size" >
+
+                <TextView
+                    style="@style/time_tv"
+                    android:text="咨询时间:"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/consult_time_tv"
+                    style="@style/time_tv"
+                    android:text=""
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/alltime_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_size"
+                android:background="@drawable/bg_alltime"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/time_tv"
+                    android:text="本次咨询"
+                    android:textColor="@color/tv_gray" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/alltime_tv"
+                    style="@style/time_tv"
+                    android:layout_marginLeft="@dimen/ssmall_size"
+                    android:layout_marginRight="@dimen/ssmall_size"
+                    android:text=""
+                    android:textColor="@color/tv_red" >
+                </TextView>
+
+                <TextView
+                    style="@style/time_tv"
+                    android:text="@string/minute"
+                    android:textColor="@color/tv_gray" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/remaintime_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_remaintime"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/time_tv"
+                    android:text="还剩"
+                    android:textColor="@color/tv_gray" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/remaintime_tv"
+                    style="@style/time_tv"
+                    android:layout_marginLeft="@dimen/ssmall_size"
+                    android:layout_marginRight="@dimen/ssmall_size"
+                    android:text="00:20"
+                    android:textColor="@color/tv_red" >
+                </TextView>
+
+                <TextView
+                    style="@style/time_tv"
+                    android:text="@string/minute"
+                    android:textColor="@color/tv_gray" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/large_size"
+        android:background="@drawable/bg_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/hint_tv"
+            android:layout_margin="@dimen/small_size"
+            android:text="该服务仅限VIP用户"
+            android:textColor="@color/tv_gray" />
+
+        <Button
+            android:id="@+id/wantRequestBtn"
+            android:layout_width="@dimen/request_btn_size1"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_size"
+            android:background="@drawable/btn_red"
+            android:text="@string/want_request"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size28" />
+
+        <LinearLayout
+            android:id="@+id/waitnum_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_size"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/time_tv"
+                android:text="你前面有"
+                android:textColor="@color/tv_gray" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/waitnum_tv"
+                style="@style/time_tv"
+                android:layout_marginLeft="@dimen/ssmall_size"
+                android:layout_marginRight="@dimen/ssmall_size"
+                android:text="6位"
+                android:textColor="@color/tv_red" >
+            </TextView>
+
+            <TextView
+                style="@style/time_tv"
+                android:text="用户在等待"
+                android:textColor="@color/tv_gray" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/large_size"
+        android:text="@string/warm_tip" />
+
+</LinearLayout>

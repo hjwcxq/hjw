@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res/tv.aniu.app.dzlc">
+
+    <com.orientmedia.app.cfddj.widget.IndicatorViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/focus_gallery_height"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:minHeight="@dimen/focus_gallery_height" />
+
+    <com.orientmedia.app.cfddj.widget.CircleFlowIndicator
+        android:id="@+id/imagePointsGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:padding="10dip" >
+    </com.orientmedia.app.cfddj.widget.CircleFlowIndicator>
+
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/large_size"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/user_name"
+            style="@style/input_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="用户名:" />
+
+        <EditText
+            android:id="@+id/user_password"
+            style="@style/input_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:hint="密码:"
+            android:inputType="textPassword"
+            android:password="true"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/login_btn"
+            style="@style/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:text="@string/login" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="#ffe0e0e0" />
+
+        <Button
+            android:id="@+id/email_reg_ben"
+            style="@style/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:text="@string/email_reg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dip"
+            android:background="#ffe0e0e0" />
+
+        <Button
+            android:id="@+id/one_key_reg_ben"
+            style="@style/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:text="@string/one_key_reg" />
+    </LinearLayout>
+
+</LinearLayout>

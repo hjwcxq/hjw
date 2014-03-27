@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/ll_tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selectable_white"
+            android:paddingRight="@dimen/large_size" >
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_back_style" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img_back"
+                android:paddingBottom="@dimen/small_size"
+                android:paddingTop="@dimen/large_size"
+                android:text="大盘近期明显波动，注意调怎仓位，以免剧烈下滑"
+                android:textColor="@color/text_button"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_news_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_tital" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="阅读(213123)"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="35dip"
+                android:text="2013-12-12"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_news"
+            android:layout_width="fill_parent"
+            android:layout_height="180dip"
+            android:layout_below="@+id/rl_news_info"
+            android:layout_centerHorizontal="true"
+            android:padding="28dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_videoframe" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_news"
+            android:paddingLeft="25dip"
+            android:paddingRight="25dip"
+            android:text="    的房间爱离开的减肥啦积分的可垃圾的立刻就阿里客服剪短发了空间贷记卡垃圾啊路口的积分房间里卡建档立卡简单了的发掘了肯德基了卡的到家了卡积分了打击了客服打击两款发动机拉空间的垃圾弗兰克的骄傲了空间的福建阿里客服大"
+            android:textColor="@color/text_button"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</ScrollView>

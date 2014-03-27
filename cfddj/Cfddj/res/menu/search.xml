@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:icon="@drawable/tital_search_style"
+        android:title="@string/menu_search"/>
+    
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/tv.aniu.app.dzlc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.orientmedia.app.cfddj.widget.IndicatorViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+
+        <com.orientmedia.app.cfddj.widget.CircleFlowIndicator
+            android:id="@+id/imagePointsGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startManagerMoney"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="10dip">
+        </com.orientmedia.app.cfddj.widget.CircleFlowIndicator>
+
+        <Button
+            android:id="@+id/startManagerMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/normal_size"
+            android:background="@drawable/btn_welcome_style"
+            android:text="开始理财"
+            android:textColor="@color/color_white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</FrameLayout>

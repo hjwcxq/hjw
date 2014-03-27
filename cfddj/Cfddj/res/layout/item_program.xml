@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_size"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/color_black" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+         android:textSize="16sp"
+        android:ellipsize="marquee"
+        android:textColor="@color/color_black" />
+
+    <Button
+        android:id="@+id/subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_margin="@dimen/small_size"
+        android:layout_weight="1"
+        android:background="@drawable/backgroup_program_btn"
+        android:text="订阅"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_margin="@dimen/small_size"
+        android:layout_weight="1"
+        android:background="@drawable/icon_searchbar_checkbutton_normal"
+        android:text="播放"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/liveplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="正在直播"
+        android:textColor="@color/color_lightpink"
+        android:visibility="gone" 
+        android:textSize="16sp" />
+
+</LinearLayout>

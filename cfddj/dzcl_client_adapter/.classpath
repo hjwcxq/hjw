@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/GexinSdk-open_ndx_1.1.16.2-20130221.jar"/>
+	<classpathentry kind="lib" path="lib/ormlite-android-4.41.jar"/>
+	<classpathentry kind="lib" path="lib/ormlite-core-4.41.jar"/>
+	<classpathentry kind="lib" path="lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/Dreambox-FrameworkCore-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/android-sdk-windows/platforms/android-10/android.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/library"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/actionbarsherlock_dy"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gplz_title_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textLayout"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/bg_logo" />
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/large_size"
+        android:paddingLeft="@dimen/large_size"
+        android:paddingTop="@dimen/large_size" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/wait_hint_tv"
+                android:text="您前面有 "
+                android:textColor="@color/white" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/online_waitnum"
+                style="@style/wait_hint_tv"
+                android:text=""
+                android:textColor="@color/tv_orange" >
+            </TextView>
+
+            <TextView
+                style="@style/wait_hint_tv"
+                android:text=" 用户在等待"
+                android:textColor="@color/white" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_size"
+            android:text="@string/hint_online"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size18" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/dzcl_client_adapter"/>
+	<classpathentry exported="true" kind="lib" path="/dzcl_client_adapter/lib/Dreambox-FrameworkCore-1.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/social_sdk_library_project"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

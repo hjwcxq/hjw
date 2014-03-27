@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_wait"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textLayout"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/bg_logo" />
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/large_size"
+        android:paddingLeft="@dimen/large_size"
+        android:paddingTop="@dimen/large_size" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/wait_hint_tv"
+                android:lineSpacingExtra="@dimen/large_size"
+                android:text="@string/hint_offline1"
+                android:textColor="@color/white" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_offline2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size18" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dip</dimen>
+    <dimen name="activity_vertical_margin">16dip</dimen>
+
+    <!-- video 尺寸 -->
+    <dimen name="video_frame_width">320dip</dimen>
+    <dimen name="video_frame_height">180dip</dimen>
+    <dimen name="video_image_play_width">80dip</dimen>
+    <dimen name="video_image_play_height">80dip</dimen>
+    <dimen name="video_expert_height">230dip</dimen>
+    <!-- focus -->
+    <dimen name="focus_gallery_height">180dip</dimen>
+
+    <!-- textInputHeader 尺寸 -->
+    <dimen name="textinput_header_height">40dip</dimen>
+    <dimen name="text_input_header_height">45dip</dimen>
+    <dimen name="textinput_header_item_height">30dip</dimen>
+    <dimen name="textinput_header_item_width">40dip</dimen>
+    <dimen name="textinput_header_item_text_size">13dip</dimen>
+    <dimen name="zero_dimen">0dip</dimen>
+    <!-- text 字号大小 -->
+    <dimen name="smaller_tv_size">14px</dimen>
+    <dimen name="status_tv_size">16px</dimen>
+    <dimen name="tv_size18">18px</dimen>
+    <dimen name="tv_size20">20px</dimen>
+    <dimen name="tv_size26">26px</dimen>
+    <dimen name="tv_size28">28px</dimen>
+
+    <!-- item 尺寸 -->
+    <dimen name="item_title_text_size">12dip</dimen>
+    <dimen name="item_detail_text_size">13dip</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_m_large">20sp</dimen>
+
+    <!-- image head 尺寸 -->
+    <dimen name="expert_head_img_width">72dip</dimen>
+    <dimen name="expert_head_img_height">72dip</dimen>
+    <dimen name="request_btn_size">120dip</dimen>
+    <dimen name="request_btn_size1">200dip</dimen>
+    <!-- padding 尺寸 -->
+    <dimen name="ssmall_size">3dip</dimen>
+    <dimen name="small_size">5dip</dimen>
+    <dimen name="medium_size">8dip</dimen>
+    <dimen name="normal_size">10dip</dimen>
+    <dimen name="large_size">12dip</dimen>
+    <dimen name="llarge_size">20dip</dimen>
+
+    <!-- pointvideoItem -->
+    <dimen name="pointvideo_item_height">80dip</dimen>
+    <dimen name="pointvideo_icon_height">60dip</dimen>
+    <dimen name="pointvideo_icon_width">80dip</dimen>
+    <dimen name="pointvideo_righticon_height">50dip</dimen>
+    <dimen name="pointvideo_righticon_width">50dip</dimen>
+    <dimen name="pointvideo_textTitle_textSize">17dip</dimen>
+    <dimen name="pointvideo_textDetail_textSize">12dip</dimen>
+
+    <!-- order dialog -->
+    <dimen name="ordertip_title_textsize">16dip</dimen>
+    <dimen name="ordertip_detail_textsize">14dip</dimen>
+
+    <!-- sub_usercenter_userinfo -->
+    <dimen name="item_marginTop">5dip</dimen>
+    <dimen name="item_height">50dip</dimen>
+    <dimen name="item_width">300dip</dimen>
+    <dimen name="item_bordermargin">10dip</dimen>
+    <dimen name="item_padding">15dip</dimen>
+    <dimen name="item_textSize">17dip</dimen>
+    <dimen name="item_buttonTextSize">14dip</dimen>
+    <dimen name="item_buttonHeight">21dip</dimen>
+    <dimen name="item_buttonWidth">61dip</dimen>
+    <dimen name="item_textMarginRight">71dip</dimen>
+
+    <!-- TEST -->
+    <dimen name="image_detail_pager_margin">80dip</dimen>
+
+</resources>

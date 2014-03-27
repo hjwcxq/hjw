@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">财富大当家</string>
+    <string name="title_back">返回</string>
+
+    <!-- menu item strings -->
+
+    <string name="delete">删除</string>
+    <string name="select">查看</string>
+    <string name="menu_search">搜索</string>
+    <string name="add_my_stock">添加自选股</string>
+    <string name="menu_living">直播</string>
+    <string name="menu_default_phone_num">未登录</string>
+    <string name="collect">收藏</string>
+    <string name="download">下载</string>
+
+    <!--  -->
+    <string name="guest_ono_to_one">专家一对一</string>
+    <string name="baodian">赚钱宝典</string>
+    <string name="private_data">独家数据</string>
+    <string name="choose_stock">一键选股</string>
+    <string name="all_person_discuss">全民讨论区</string>
+    <string name="jijin">集锦</string>
+    <string name="gegu">个股</string>
+    <string name="dapan">大盘</string>
+    <string name="laozuo">老左</string>
+    <string name="baike">百科</string>
+    <string name="expert">专家</string>
+    <string name="sign_in">签到换礼</string>
+    <string name="binding_account">绑定账号</string>
+    <string name="my_order">我的订购</string>
+    <string name="my_question">我的提问</string>
+    <string name="my_video">我的视频</string>
+    <string name="card_order">卡激活</string>
+    <string name="my_topic">我的话题</string>
+    <string name="my_stock">我的股票</string>
+    <string name="invite_friend">邀请好友</string>
+    <string name="setting">设置</string>
+    <string name="app_recommend">精品推荐</string>
+    <string name="app_detail">应用详情</string>
+    <string name="send">发送</string>
+    <string name="hint_online">请勿离开此页，您可先于留言版区\n域进行留言提问，谢谢！</string>
+    <string name="hint_offline1">当前专家离线，请留下提问\n待专家在线后回复</string>
+    <string name="hint_offline2">专家回复后将通过系统消息提示您！</string>
+    <string name="waittitle">操作提示</string>
+    <string name="waitmsg">正在读取数据，请稍等…</string>
+    <string name="question">亲，欢迎来到股票老左的专家咨询室!</string>
+    <string name="et_input">请输入留言信息!</string>
+
+    <!--  -->
+    <string name="online">当前在线</string>
+    <string name="offline">当前离线</string>
+    <string name="login">登录</string>
+    <string name="email_reg">邮箱注册</string>
+    <string name="one_key_reg">一键注册</string>
+    <string name="want_request">我要咨询</string>
+    <string name="offline_request">离线咨询</string>
+    <string name="warm_tip">温馨提示:\n1)当排队人数的估计时间超出专家当日咨询时间，您可选择其他专家咨询;
+    \n\n2)当您点击 "我要咨询" 后，请耐心等待，请勿离开等待页面.</string>
+    <string name="name">180xxxx0000</string>
+    <string name="time">04-25 18:00</string>
+    <string name="myorder_button">退订</string>
+    <!-- dialog promot info -->
+
+    <string name="prompt_info">提示信息</string>
+    <string name="sure_quit">确定退出财富大当家？</string>
+    <string name="no_chche">请先连接网络缓存</string>
+    <string name="login_fail">登录失败</string>
+    <string name="invite_intro">全球唯一财经视频直播互动实时解答媒体，【点掌财经】请访问gp.tv189.com与国内百名顶级机构专家互动交流！（来自《点掌财经》Android客户端）</string>
+    <string name="demoStr"><Data><![CDATA[ <b>ABC</b> ]]></Data></string>
+    <!--  -->
+    <string name="minute">分钟</string>
+    
+    
+    <!-- 支付  string -->
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+     <string name="Ensure">"确定"</string>
+    <string name="Cancel">"取消"</string>
+    <string name="my_stock">"我的股票"</string>
+    <string name="confirm_install_hint">"安装提示"</string>
+     <string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+     
+     <!-- TEST -->
+     <string name="imageview_description">Image Thumbnail</string>
+     
+     <string name="app_about">财富大当家是全球唯一财经，房产视频直播互动实时解答媒体</string>
+	 <string name="string_no_update">当前已经是最新版本</string>
+	 <string name="string_timeout">连接超时</string>
+</resources>

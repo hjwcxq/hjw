@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<!-- 
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/tital_search_style"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="@string/menu_search"/> -->
+
+   <item
+        android:id="@+id/progream_item"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:icon="@drawable/tital_menu_style"
+        android:title="@string/menu_default_phone_num"/>
+
+</menu>

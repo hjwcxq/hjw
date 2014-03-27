@@ -1,0 +1,93 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="input_et">
+        <item name="android:textColor">@color/et_gray</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="login_btn">   
+        <item name="android:background">@color/gplz_title_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="wrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="time_tv" parent="wrapContent">
+        <item name="android:textSize">@dimen/tv_size20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="hint_tv" parent="wrapContent">
+        <item name="android:textSize">@dimen/tv_size20</item>
+    </style>
+
+    <style name="wait_hint_tv" parent="wrapContent">
+        <item name="android:textSize">@dimen/tv_size28</item>
+    </style>
+
+    <style name="question_name_tv" parent="wrapContent">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/smaller_tv_size</item>
+        <item name="android:textColor">@color/tv_grayer</item>
+        <item name="android:paddingLeft">@dimen/small_size</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @android:color/transparent </item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="myDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+                       // 除去title        <item name="android:windowBackground">@android:color/transparent</item>
+            // 除去背景        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    
+    
+     <style name="app_title_back_btn_style">
+        <item name="android:textColor">@color/button_color</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/btn_title_back_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2.0dip</item>
+        <item name="android:text">@string/title_back</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="app_title_text_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+</resources>
